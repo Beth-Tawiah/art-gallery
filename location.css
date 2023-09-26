@@ -91,7 +91,6 @@
     justify-content: space-between;
     width: 1440px;
     height: 244px;
-    flex-shrink: 0;
 }
 
 
@@ -102,14 +101,12 @@
     line-height: 36px;
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
-    width: 150px;
-    height: 58px;
 }
 
 .footer-body {
     width: 430px;
     font-size: 18px;
-    font-style: normal;
+    font-style: 'Outfit';
     font-weight: 300;
     line-height: 28px;
 }
