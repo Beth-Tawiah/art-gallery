@@ -10,21 +10,22 @@
     grid-template-columns: repeat(3,400px);
 }
  .hero-div>div:nth-child(1) {
-    background-color: #151515;
-    
-    
- }
+    background-color: #151515;   
+}
+
+
 
 .hero-txt-head{
+    position: relative;
     width: 514px;
     font-family: Big Shoulders Display;
     font-size: 96px;
     font-style: normal;
     font-weight: 900;
     line-height: 88px;
+    color: #ffffff;
     text-transform: uppercase;
-    padding: 40%;
-     
+    padding: 40%;    
 } 
 
 .body-hero-txt {
@@ -127,7 +128,7 @@
 }
 .body-txt {
     margin-right: -10%;
-    padding: 50px;
+    padding: 40px;
     padding-top: 10px;
     margin-left: 25px;
     text-align: center;
