@@ -9,21 +9,26 @@
     display: grid;
     grid-template-columns: repeat(3,400px);
 }
-.hero-txt-head{
+.hero-txt-container {
     position: relative;
-    width: 514px;
-    font-family:'Big Shoulders Display';
+    background-color: #151515;
+}
+
+.hero-txt-head {
+    font-family: 'Big Shoulders Display';
     font-size: 96px;
     font-style: normal;
     font-weight: 900;
     line-height: 88px;
+    width: 514px;
     text-transform: uppercase;
-    padding: 150px;
     color: #ffffff;
-    background-color: #151515;
-} 
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
 .desk-img{
-    mix-blend-mode: difference;
+    mix-blend-mode:difference;
 
 }
 
@@ -216,9 +221,6 @@
     
     }
     
-
-   
-
         /* order of change after mobile view */
     .hero-div>div:nth-child(1) {
         background-color: #ffffff;
@@ -328,10 +330,8 @@
     
     .mob-img,.desk-img {
         display: none;
-    /* Hide mobile and desktop images */
     }
-  
-    
+
     .hero-txt {
         gap: 48px;
         translate: -450px 200px;
@@ -386,22 +386,15 @@
     .icons-svg{
         margin-left: 20%;
     }
-  
-
-   
-     
-
 }
 /* Desktop display*/
 @media (min-width: 769px) {
     .desk-img{
         display: block;
-        /* Show desktop  */
     }
 
     .mob-img,.tab-img {
         display: none;
-        /* Hide mobile and tablet  */
     }
 
     .sectwo-desk-img {
