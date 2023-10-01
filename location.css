@@ -74,7 +74,6 @@
 }
 
 .street-name {
-    width: 450px;
     color: #D5966C;
     text-transform: uppercase;
     font-size: 32px;
@@ -128,11 +127,13 @@
 
     .map-mob-img {
         display: block;
+        width: 100%;
     }
 
     .map-desk-img,
     .map-tab-img {
         display: none;
+        
     }
     
     /* location-section */
@@ -205,9 +206,7 @@
             justify-items: center;
     
         }
-    }
-
-
+}
 
 
 /* tablets dispaly */
@@ -220,7 +219,8 @@
     .map-mob-img {
         display: none;
     }
-
+    
+    
     .location-section {
         width: 100%;
     }
@@ -229,10 +229,18 @@
         width: 100%;
     }
 
+}
+@media (min-width: 769px) {
+    .map-desk-img {
+        display: block;
+    }
+
+    .map-tab-img,
+    .map-mob-img {
+        display: none;
+    }
 
 }
-
-
 
 
 
