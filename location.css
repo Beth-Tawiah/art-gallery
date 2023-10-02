@@ -12,7 +12,7 @@
     margin: 10px;
     position: absolute;
     top: 4.5%;
-    left: 25%;
+    left: 17%;
     transform: translate(-50%, -50%);
     color: #ffffff;
     padding: 15px 10px;
@@ -24,8 +24,12 @@
 }
 
 .index-btn svg {
-    width: 50px;
+    margin-right: 50px;    
 
+}
+.btn svg {
+    margin-left: 50px;
+    margin-right: -20px;
 }
 
 .index-btn:hover {
@@ -60,7 +64,7 @@
 .street-name,
 .open-time {
     margin-bottom: 40px;
-    padding-left: 45%;
+    padding-left: 38%;
     font-size: 36px;
     line-height: 36px;
 }
@@ -112,14 +116,19 @@
 }
 
 .icons {
-    width: 200px;
+    justify-content: space-between;
+    width: 265px;
+}
+
+.icons svg {
+    width: 25px;
     height: 20px;
+    margin-right: 10px;
 }
 
 .icons :hover {
     fill: #ffffff;
     cursor: pointer;
-
 }
 
 /* mobile display */
