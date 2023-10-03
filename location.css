@@ -44,7 +44,6 @@
     background-color: #151515;
     color: #ffffff;
     max-width: 100%;
-    width: 1440px;
     height: 548px;
     flex-shrink: 0;
 }
@@ -117,7 +116,7 @@
 
 .icons {
     justify-content: space-between;
-    width: 265px;
+    width: 280px;
 }
 
 .icons svg {
