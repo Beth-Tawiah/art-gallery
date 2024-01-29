@@ -8,3 +8,7 @@ Location Page: A page giving information about the gallery's physical location, 
 
 To view :
 Open the index.html file in a web browser to view the home page. Similarly, open the location.html file to view the location page.
+
+below is the deployed link 
+
+https://tawiahartgalley.netlify.app/
